@@ -1,10 +1,14 @@
 *{
     padding: 0;
     margin:0;
+    box-sizing: border-box;
 }
 
 body{
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 
@@ -17,7 +21,6 @@ body{
 
 .Name{
     color: whitesmoke;
-    text-align: center;
     margin-top: 2rem;
     font-size: 50px;
     font-family: "orbitron",sans-serif;
@@ -26,11 +29,18 @@ body{
 }
 #txt{
     color: whitesmoke;
-    display: flex;
-    justify-content: center;
     text-align: center;
-    margin-top: 25rem;
-    font-size: 300px;
+    font-size: 10vw;
     font-family: "Orbitron", sans-serif;
     text-shadow: 0 0 10px whitesmoke;
+}
+.title{
+    text-align: center;
+}
+
+.clockContainer{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
