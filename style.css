@@ -44,3 +44,10 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width:768px){
+    .Name{
+        text-shadow: 0 0 2px wheat;
+        box-shadow: 0 0 4px whitesmoke;
+    }
+}
